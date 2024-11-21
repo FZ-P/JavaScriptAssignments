@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Routing App</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.css" />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
+  <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+</head>
+<body>
+  <h1>Route Planner</h1>
+  <form id="routeForm">
+    <label for="address">Enter an address:</label>
+    <input type="text" id="address" name="address" required>
+    <button type="submit">Get Route</button>
+  </form>
+  <div id="map" style="height: 500px; margin-top: 20px;"></div>
+  <script src="assignment7.js"></script>
+</body>
+</html>
+
+
+
